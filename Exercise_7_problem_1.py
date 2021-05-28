@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -19,7 +20,8 @@ import numpy as np
 import pandas as pd
 
 # YOUR CODE HERE 1 to set data
-
+x = np.random.rand(1000)
+y = np.random.rand(1000)
 # Check your random values
 print(data.head())
 
@@ -52,6 +54,8 @@ assert len(colors) == 1000, "There should be 1000 random numbers for colors"
 
 # Plot a scatter plot
 # YOUR CODE HERE 3
+
+
 
 # Add labels and title
 # YOUR CODE HERE 4
